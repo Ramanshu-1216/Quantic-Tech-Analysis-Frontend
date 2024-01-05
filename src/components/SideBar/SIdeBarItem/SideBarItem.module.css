@@ -1,0 +1,56 @@
+.sideBarItemcontainer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    color: #F9FAFB;
+    opacity: 0.5;
+    border-radius: 20px;
+    border: 1px solid #0D0D30;
+    text-align: center;
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.sideBarItemLogo {
+    max-width: 25px;
+}
+
+.sideBarItemcontainer:hover, .active {
+    background-color: #28286B;
+    border: 1px solid #4040F2;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.label {
+    margin-top: 10px;
+    display: block;
+}
+
+.bottom{
+    margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .sideBar {
+        width: 70px;
+    }
+
+    .label {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .sideBar {
+        width: 13vw;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .sideBar {
+        width: 10vw;
+    }
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PlusJakartaSans-Regular';
+    src: url('/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'PlusJakartaSans-Regular';
+  }
